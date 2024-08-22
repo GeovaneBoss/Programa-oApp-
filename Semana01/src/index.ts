@@ -38,8 +38,8 @@ if(IdadeNova === undefined || idades[i]<IdadeNova){
 
 function PessoasMaisVelhas (){
 idades.forEach((idade,index) => {
-    if(idadevelha === undefined || idades[i]<idadevelha){
-        idadevelha = idades[i];
+    if(idadevelha === undefined || idades[index]<idadevelha){
+        idadevelha = idades[index];
         nomevelha = nomes[index];
         console.log(`A PESSOA MAIS VELHA É ${nomevelha} com ${idadevelha} ANOS`);
 }})
