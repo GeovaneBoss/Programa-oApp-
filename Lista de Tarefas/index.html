@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Lista de Tarefas</h1>
+        <div class="grupo-input">
+            <input type="text" id="Tarefa-text" placeholder="Adicionar">
+            <button id="add-tarefa" onclick=" adicionarTarefa()">Adicionar</button>
+
+        </div>
+        <ul id="lista-tarefa">
+            <li class="">
+                <span>Tarefa Numero 1</span>
+                <div>
+                    <button class="Check">Concluir</button>
+                    <button class="Edit">Editar</button>
+                    <button class="delete">Excluir</button>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
